@@ -1,0 +1,6 @@
+This Script uses keras_ocr and cv2 modules in python to remove specific text from images, after that it uses cv2 to remove watermark. All of this is possible by keras_ocr which provides great options to localize the text in image  while providing exact coordinates, then cv2 will use these coordinates to inpaint the text area  and by using ML models it matches the background of that area and masks  the text area. 
+REQUIREMENTS:
+--keras_ocr
+--cv2
+--matplotlib
+--numpy
